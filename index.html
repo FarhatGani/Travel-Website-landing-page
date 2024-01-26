@@ -4,20 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dream Destination Travels</title>
+    <title>TravelAdvisor</title>
 
     <!-- Google Font Muish -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="Styles/travel.css" class="css">
+    <link rel="stylesheet" href="Styles/travelresponsive.css">
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <nav class="">
+            <div class="name-logo">
+                <img src="Images/Group 40071.png" alt="">
+                <h2 class="brand-name">Travel<span class="colored-txt">Advisor</span></h2>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <a href="">Home</a>
+                    <a href="">Packages</a>
+                    <a href="">Testimonial</a>
+                    <a href="">Blog</a>
+                    <a href="">Contact</a>
+                </ul>
+            </div>
+        </nav>
 
-    <main></main>
+    </header>
+
+    <main>
+        <!-- Banner Section Strts -->
+        <section class="banner">
+            <div class="banner-content">
+                <h2 class="banner-title">Explore Your Travel</h2>
+                <p class="banner-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
+                    adipiscing. In et odio <br> enim ac
+                    quis
+                    sapien urna eu phasellus.</p>
+            </div>
+            <div class="form">
+                <form>
+                    <select id="where" name="where">
+                        <option value="" disabled selected hidden>Where go</option>
+                        <option value="paris">Paris, France</option>
+                        <option value="tokyo">Tokyo, Japan</option>
+                        <option value="nyc">New York City, USA</option>
+                    </select>
+                </form>
+                <form>
+                    <input type="text" id="dateRange" name="dateRange" placeholder="YY-MM-DD - YY-MM-DD"
+                        pattern="\d{2}-\d{2}-\d{2} - \d{2}-\d{2}-\d{2}">
+                </form>
+                <form>
+                    <select id="type" name="type">
+                        <option value="">Select type</option>
+                        <option value="">Luxury Trip</option>
+                        <option value="">Solo Trip</option>
+                        <option value="">Budget-Friendly</option>
+                    </select>
+                </form>
+                <button class="common-btn" type="submit">Find Now</button>
+            </div>
+        </section>
+        <!-- Banner Section Ends -->
+    </main>
 
     <footer></footer>
 </body>
