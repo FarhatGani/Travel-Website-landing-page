@@ -222,3 +222,51 @@ input {
 
 /* Choose Your Destination Ends */
 
+/* Why Choose Us */
+.card-container {
+    /* border: 1px solid rgba(218, 29, 108, 0.2); */
+    /* padding: 50px 0; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-title {
+    /* border: 2px solid red; */
+    color: #131318;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-description {
+    /* border: 2px solid green; */
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 450px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card-1, .card-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 450px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.hide {
+    display: none;
+}
