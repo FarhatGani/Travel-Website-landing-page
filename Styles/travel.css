@@ -223,21 +223,30 @@ input {
 /* Choose Your Destination Ends */
 
 /* Why Choose Us */
+
 .card-container {
     /* border: 1px solid rgba(218, 29, 108, 0.2); */
     /* padding: 50px 0; */
+    text-align: start;
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
+.card-container div {
+    border-radius: 16px;     
+    width: 450px;
+    margin: 20px;
+    padding: 20px;
+}
+
 .card-title {
     /* border: 2px solid red; */
     color: #131318;
-    text-align: center;
     font-size: 24px;
     font-weight: 800;
+    padding: 10px 0;
 }
 
 .card-description {
@@ -249,23 +258,72 @@ input {
     /* 162.5% */
 }
 
+.card-1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
 .card-2 {
-    border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-    width: 450px;
-    margin: 20px;
+}
+
+.card-3 {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+/* Why Choose Us Ends */
+
+/* Newsletter section starts */
+.newsletter {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-form-content {
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin: 0 20px;
     padding: 20px;
 }
 
-.card-1, .card-3 {
-    border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05);
-    width: 450px;
-    margin: 20px;
-    padding: 20px;
+.newsletter-form-content input {
+    margin-top: 20px;
 }
+
+.newsletter-img {
+    width: 70%;
+    background-image: url('../Images/Rectangle\ 15.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 16px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.offer-txt {
+    background: #FF5400;
+    width: 260px;
+    padding: 20px;
+    text-align: center;
+    border: 0;
+    border-radius: 16px;
+    color: #fff;
+    position: absolute;
+    bottom: 38px;
+    right: 5px;
+    transform: rotate(-20deg);
+}
+
+/* Newsletter section ends */
 
 .hide {
     display: none;
