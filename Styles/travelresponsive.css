@@ -1,6 +1,48 @@
 /* Mobile Responsive */
 @media screen and (max-width:600px) {
-    .form {
+
+    .popular-tours,
+    .card-container,
+    .newsletter {
         flex-direction: column;
+    }
+
+    .popular-tours {
+        text-align: start;
+        padding: 0 10px;
+    }
+
+    .description {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .description p,
+    ul {
+        padding: 10px 0;
+    }
+
+    /* Destination */
+    .gallery {
+        grid-template-columns: repeat(7, 1fr);
+        gap: 10px;
+    }
+
+    .card-container div {
+        width: 95%;
+        margin: 10px 0;
+    }
+
+    /* footer */
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-name-logo h2{
+        padding: 20px 0;
     }
 }

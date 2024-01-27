@@ -114,6 +114,10 @@ nav {
 
 .form form {
     margin: 0 15px;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 form select,
@@ -128,6 +132,7 @@ input {
     font-weight: 700;
     color: #ffffff;
     padding: 10px 20px;
+    margin-top: 20px;
     border-radius: 5px;
     border: none;
 }
@@ -155,10 +160,12 @@ input {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
+    padding: 20px;
 }
 
 .description p {
-    padding: 20px 0;
+    padding: 10px 0;
+    line-height: 30px;
 }
 
 .description li {
@@ -352,8 +359,7 @@ input {
     font-weight: 800;
 }
 
-.footer h2,
-span {
+.footer .brand-name {
     color: var(--Dark-01, #131318);
     font-size: 28px;
     font-weight: 800;
@@ -375,6 +381,16 @@ span {
     gap: 10px;
     margin: 10px 0;
 }
+
+.footer img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.patent {
+    margin-top: 50px;
+}
+
 
 /* Footer Section Ends */
 
