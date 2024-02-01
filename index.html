@@ -21,7 +21,7 @@
 
 <body>
     <header>
-        <nav class="hide">
+        <nav class="">
             <div class="name-logo">
                 <img src="Images/Group 40071.png" alt="">
                 <h2 class="brand-name">Travel<span class="colored-txt">Advisor</span></h2>
@@ -35,32 +35,33 @@
                     <a href="">Contact</a>
                 </ul>
             </div>
+            <label for="" class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </label>
         </nav>
 
     </header>
 
     <main>
         <!-- Banner Section Strts -->
-        <section class="banner hide">
+        <section class="banner">
             <div class="banner-content">
                 <h2 class="banner-title">Explore Your Travel</h2>
-                <p class="banner-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
-                    adipiscing. In et odio <br> enim ac
-                    quis
-                    sapien urna eu phasellus.</p>
+                <p class="banner-description">Embark on your journey with ease. Choose your destination, ideal travel dates, and preferred <br> travel style to personalize your adventure.</p>
             </div>
             <div class="form">
                 <form>
                     <select id="where" name="where">
-                        <option value="" disabled selected hidden>Where go</option>
+                        <option value="">Where go</option>
                         <option value="paris">Paris, France</option>
                         <option value="tokyo">Tokyo, Japan</option>
                         <option value="nyc">New York City, USA</option>
                     </select>
                 </form>
                 <form>
-                    <input type="text" id="dateRange" name="dateRange" placeholder="YY-MM-DD - YY-MM-DD"
-                        pattern="\d{2}-\d{2}-\d{2} - \d{2}-\d{2}-\d{2}">
+                    <input type="text" placeholder="When">
                 </form>
                 <form>
                     <select id="type" name="type">
@@ -78,19 +79,20 @@
         <!-- Our Popular Tours  -->
         <section class="popular-tours">
             <div class="description">
-                <h2 class="title">Our Popular Tours</h2>
-                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst
-                    nec nibh pellentesque.</p>
+                <h2 class="popular-tour-title">Our Popular Tours</h2>
+                <p>Discover our curated collection of top-rated tours. Immerse yourself in enchanting and unforgettable
+                    experiences crafted for every travel enthusiast.</p>
                 <ul>
-                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis
-                        erat at .</li>
-                    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus
-                        suspendisse nullam.</li>
-                    <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+                    <li>Explore historic wonders on our Heritage Tour – a captivating journey through time and culture.
+                    </li>
+                    <li>Indulge in luxury with our Exclusive Retreats – handpicked destinations for a lavish and serene
+                        escape.</li>
+                    <li> Adventure awaits! Join our Thrill-Seeker Expeditions, adrenaline-packed tours for the daring
+                        explorer in you.</li>
                 </ul>
-                <p>Amet consectetur. Vulputate commodo felis molestie risus
-                    ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus
-                    natoque aliquet. Id bibendum nunc senectus semper tincidunt.</p>
+                <p>Dive into a world of excitement and create lasting memories with our popular tours. Each itinerary
+                    promises unique adventures and unparalleled exploration, ensuring a travel experience like no other.
+                </p>
                 <button class="common-btn">Read More</button>
             </div>
             <div>
@@ -102,9 +104,8 @@
         <section class="destination">
             <div>
                 <h2 class="section-title">Choose Your Destination</h2>
-                <p class="section-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio
-                    sit massa.
-                    <br> Sodales dictumst nec nibh pellentesque.
+                <p class="section-description">Select your dream destination effortlessly. Explore a diverse range of
+                    locales, from exotic beaches to <br> cultural landmarks, and plan your perfect getaway.
                 </p>
             </div>
 
@@ -131,37 +132,33 @@
         <!-- Why Choose Us -->
         <section class="why-choose-us">
             <h2 class="section-title">Why Choose Us</h2>
-            <p class="section-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio
-                sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
+            <p class="section-description">Discover the reasons to choose us. Unparalleled expertise, personalized
+                service, and a commitment <br> to creating memorable journeys set us apart in the world of travel.</p>
             <div class="card-container">
                 <div class="card-1">
                     <img src="Images/hotel.png" alt="">
                     <h3 class="card-title">Handpicked Hotels</h3>
-                    <p class="card-description">Amet consectetur. Vulputate commodo felis molestie risus ornare
-                        nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing
-                        risus
-                        natoque aliquet. </p>
+                    <p class="card-description">Indulge in luxury with our Handpicked Hotels. Immerse yourself in
+                        unparalleled comfort and style, curated for an exquisite stay in every destination.</p>
                 </div>
                 <div class="card-2">
                     <img src="Images/map.png" alt="">
                     <h3 class="card-title">World Class Service</h3>
-                    <p class="card-description">Amet consectetur. Vulputate commodo felis molestie risus ornare
-                        nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing
-                        risus
-                        natoque aliquet. </p>
+                    <p class="card-description">Experience excellence with our World-Class Service. Our dedicated team
+                        ensures a seamless journey, providing unparalleled assistance and personalized attention
+                        throughout your travel adventure.</p>
                 </div>
                 <div class="card-3">
                     <img src="Images/price-tag.png" alt="">
                     <h3 class="card-title">Best Price Guarantee</h3>
-                    <p class="card-description">Amet consectetur. Vulputate commodo felis molestie risus ornare
-                        nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus
-                        natoque aliquet. </p>
+                    <p class="card-description">Enjoy peace of mind with our Best Price Guarantee. We promise unbeatable
+                        rates, ensuring you get the most value from your travel experience.</p>
                 </div>
             </div>
         </section>
 
         <!-- Newsletter Section Starts -->
-        <section class="newsletter hide">
+        <section class="newsletter">
             <div class="newsletter-form-content">
                 <h3 class="card-title">Newsletter</h3>
                 <p class="card-description">Get your daily dose of travel news & tips. Sign up today!.</p>
@@ -173,7 +170,7 @@
             <div class="newsletter-img">
                 <div class="offer-txt">
                     <p>TravelAdvisor.com</p>
-                    <h3>Save up to 70%</h3>
+                    <h2>Save up to 70%</h2>
                 </div>
             </div>
         </section>
@@ -185,15 +182,15 @@
             <img src="Images/Group 40071.png" alt="">
             <h2 class="brand-name">Travel<span style="color:#FF5400;">Advisor</span></h2>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo
-            erat maecenas vitae elementum ultricies nullam. </p>
+        <p>Connect with us on social media for daily travel inspiration, behind-the-scenes glimpses, and exciting
+            updates. Your journey begins here; let's create memories together.</p>
         <div class="footer-icons">
             <a href=""><i class="fa-brands fa-twitter"></i></a>
             <a href=""><i class="fa-brands fa-facebook-f"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-github"></i></a>
         </div>
-        <p class="patent">2017, All Rights Reserved.</p>
+        <p class="patent">2023, All Rights Reserved.</p>
     </footer>
 </body>
 
