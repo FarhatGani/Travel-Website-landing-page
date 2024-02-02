@@ -12,13 +12,7 @@ body {
 header,
 main {
     max-width: 82%;
-    /* border: 2px solid saddlebrown; */
-    /* margin-bottom: 50px; */
     margin: 30px auto;
-}
-
-section {
-    margin-bottom: 50px;
 }
 
 /* Nav Starts */
@@ -28,7 +22,6 @@ nav {
 }
 
 .name-logo {
-    /* border: 2px solid greenyellow; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +57,6 @@ nav {
 }
 
 .nav-items {
-    /* border: 2px solid seagreen; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,7 +78,6 @@ nav {
 
 /* Banner Section Starts */
 .banner {
-    /* border: 2px solid darkorange; */
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
         url('../Images/Group\ 13.png');
     background-repeat: no-repeat;
@@ -94,12 +85,7 @@ nav {
     padding: 60px 0;
     text-align: center;
     border-radius: 10px;
-}
-
-.banner-content {
-    /* border: 2px solid saddlebrown; */
-    padding-top: 30px;
-    text-align: center;
+    margin-bottom: 50px;
 }
 
 .banner-title {
@@ -146,7 +132,7 @@ input {
     font-size: 18px;
     font-weight: 700;
     color: #ffffff;
-    padding: 15px 20px;
+    padding: 12px 20px;
     margin-top: 16px;
     margin-bottom: 16px;
     border-radius: 5px;
@@ -157,9 +143,9 @@ input {
 
 /* Popular Tour Section */
 .popular-tours {
-    /* border: 2px solid saddlebrown; */
     display: flex;
     gap: 2rem;
+    margin-bottom: 50px;
 }
 
 .description {
@@ -170,6 +156,7 @@ input {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
+    padding-bottom: 5px;
 }
 
 .description p,
@@ -192,26 +179,28 @@ ul {
 /* Choose Your Destination Starts */
 
 .destination,
-.why-choose-us {
-    /* border: 2px solid salmon; */
+.why-choose-us,
+.section-title {
     text-align: center;
+    padding-bottom: 16px;
+}
+
+.destination {
+    margin-bottom: 40px;
 }
 
 .section-title {
-    /* border: 2px solid saddlebrown; */
     color: #131318;
     font-size: 40px;
     font-weight: 800;
 }
 
 .section-description {
-    /* border: 2px solid greenyellow; */
-    padding: 10px 0;
+    padding-bottom: 10px;
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
 }
 
 .gallery {
@@ -255,9 +244,11 @@ ul {
 
 /* Why Choose Us */
 
+.why-choose-us {
+    margin-bottom: 20px;
+}
+
 .card-container {
-    /* border: 1px solid rgba(218, 29, 108, 0.2); */
-    /* padding: 50px 0; */
     text-align: start;
     display: flex;
     justify-content: center;
@@ -268,12 +259,11 @@ ul {
 .card-container div {
     border-radius: 16px;
     width: 450px;
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
 }
 
 .card-title {
-    /* border: 2px solid red; */
     color: #131318;
     font-size: 24px;
     font-weight: 800;
@@ -281,12 +271,10 @@ ul {
 }
 
 .card-description {
-    /* border: 2px solid green; */
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
 }
 
 .card-1 {
@@ -306,24 +294,81 @@ ul {
 
 /* Why Choose Us Ends */
 
-/* Newsletter section starts */
-.newsletter {
-    /* border: 2px solid green; */
+/* Blog Section Starts */
+
+.blog-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.blog {
+    border-radius: 16px;
+    width: 450px;
+    padding: 5px;
+    margin: 0 5px;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.person {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.feature-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.post-time {
+    width: 55%;
+    text-align: end;
+    padding-right: 5px;
+}
+
+.blog-post {
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    padding: 10px;
+}
+
+.read-more {
+    padding-left: 20px;
+    color: #131318;
+}
+
+.read-more:hover {
+    color: #FF5400;
+}
+
+/* Blog Section Ends */
+
+/* Newsletter section starts */
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
 }
 
 .newsletter-form-content {
-    /* border: 2px solid red; */
     border-radius: 16px;
     border: 1px solid #FF5400;
-    margin: 0 20px;
+    margin-right: 20px;
     padding: 20px;
 }
 
 .horizontal-line {
     border: .5px solid rgba(19, 19, 24, 0.10);
-    /* background-color: rgba(19, 19, 24, 0.10); */
     margin-top: 5px;
 }
 
@@ -362,7 +407,6 @@ ul {
     background-color: rgba(19, 19, 24, 0.05);
     text-align: center;
     padding: 20px 300px;
-    /* line-height: 30px; */
 }
 
 .footer-name-logo {
@@ -386,7 +430,6 @@ ul {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
 }
 
 .footer-icons {
@@ -406,9 +449,4 @@ ul {
     margin-top: 50px;
 }
 
-
 /* Footer Section Ends */
-
-.hide {
-    display: none;
-}

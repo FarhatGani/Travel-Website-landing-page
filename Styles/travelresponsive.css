@@ -11,13 +11,13 @@
     .section-title,
     .box,
     .card-title {
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 800;
     }
 
     .brand-name,
     .banner-title {
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 800;
     }
 
@@ -44,6 +44,7 @@
     .form,
     .popular-tours,
     .card-container,
+    .blog-container,
     .newsletter {
         flex-direction: column;
         gap: 5px;
@@ -110,7 +111,8 @@
         height: 50vh;
         margin: 20px auto 0;
     }
-    .newsletter-form-content{
+
+    .newsletter-form-content {
         margin: 0;
     }
 
@@ -122,4 +124,11 @@
     .footer-name-logo h2 {
         padding: 20px 0;
     }
+}
+
+/* End of the styles for responsiveness of mobile devices */
+
+/* Tablet Responsive */
+@media screen and (min-width:600px) and (max-width:900px) {
+    
 }
